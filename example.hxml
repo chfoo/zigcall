@@ -1,0 +1,12 @@
+-cp src/
+-cp example/
+
+--each
+
+-neko KeyboardExample.n
+-main zigcall.example.KeyboardExample
+
+--next
+
+-neko MouseExample.n
+-main zigcall.example.MouseExample

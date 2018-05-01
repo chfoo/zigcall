@@ -1,0 +1,13 @@
+{
+    "name": "zigcall",
+    "url" : "https://github.com/chfoo/zigcall",
+    "license": "MIT",
+    "tags": ["cross"],
+    "description": "Yet another simple Signals and Slots implementation of the observer pattern.",
+    "version": "1.0.0",
+    "classPath": "src/",
+    "releasenote": "Initial release.",
+    "contributors": ["chfoo"],
+    "dependencies": {
+    }
+}

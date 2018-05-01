@@ -1,0 +1,13 @@
+language: haxe
+
+haxe:
+  - stable
+
+hxml:
+  - test.hxml
+  - example.hxml
+
+script:
+  - haxe test.hxml
+  - neko test.n
+  - haxe example.hxml
