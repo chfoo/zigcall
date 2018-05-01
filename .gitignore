@@ -3,3 +3,6 @@
 test.n
 KeyboardExample.n
 MouseExample.n
+
+# Built release output
+out/
