@@ -183,3 +183,4 @@ class IsConnectedExample {
 ```
 
 For details, please check the examples and source code.
+Automatically generated [API docs](https://chfoo.github.io/zigcall/api/) is also available.
