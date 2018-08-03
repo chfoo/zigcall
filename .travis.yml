@@ -5,9 +5,13 @@ haxe:
 
 hxml:
   - test.hxml
+  # Install hxcpp:
+  - hxml/test.cpp.hxml
   - example.hxml
 
 script:
-  - haxe test.hxml
-  - neko test.n
+  - haxe hxml/test.neko.hxml
+  - haxe hxml/test.cpp.hxml
+  - neko out/neko/test.n
+  - ./out/cpp/TestAll
   - haxe example.hxml

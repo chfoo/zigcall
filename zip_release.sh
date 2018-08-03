@@ -1,4 +1,4 @@
-#!/bin/dash
+#!/bin/dash -e
 
 NAME=zigcall
 VERSION=$(python3 -c "import json
